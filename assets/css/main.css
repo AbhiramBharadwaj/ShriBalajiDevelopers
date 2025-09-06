@@ -375,7 +375,7 @@
 }
 
 .h9-paragraph-color {
-  color: var(--h9-paragraph-color) !important;
+  color: #424949 !important;
 }
 
 .h9-grey-bg {
@@ -1923,7 +1923,7 @@ button:focus {
   transition: all 0.6s ease-out;
   line-height: 20px;
   border-radius: 50%;
-  background-color: hsl(var(--white));
+  background-color: #C0392B;
   transform: translate(-50%, -50%);
   z-index: -1;
 }
@@ -10056,7 +10056,7 @@ p.account-alert:last-child {
   height: 100%;
   top: 0;
   left: 0;
-  background: var(--h9-secondary-color);
+  background: #FFF5E1;
   z-index: 1;
 }
 .banner-9-title-box {
@@ -10068,7 +10068,7 @@ p.account-alert:last-child {
 .banner-9-title {
   font-size: 80px;
   font-weight: 700;
-  color: hsl(var(--white));
+  color: #922B21;
   line-height: 0.94;
   letter-spacing: -0.02em;
   margin-bottom: 36px;
