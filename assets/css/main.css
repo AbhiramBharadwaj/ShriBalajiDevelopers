@@ -2979,7 +2979,7 @@ input[type=number] {
 }
 
 .header-9 {
-  background: var(--h9-secondary-color);
+  background: var(#fefefe);
   border-bottom: 1px solid #23333d;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3040,13 +3040,13 @@ input[type=number] {
   height: 92px;
   top: 50%;
   right: 0;
-  background: #23333d;
+  background: #ffffff;
   transform: translateY(-50%);
 }
 .header-9-left-toggle-btn button {
   font-weight: 500;
   font-size: 20px;
-  color: hsl(var(--white));
+   color: #D6A643;
   font-family: var(--dmsans-font);
 }
 .header-9-left-toggle-btn button span {
@@ -3093,11 +3093,11 @@ input[type=number] {
   height: 92px;
   top: 50%;
   left: 0;
-  background: #23333d;
+  background: #ffffff;
   transform: translateY(-50%);
 }
 .header-9-call-icon a {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.05);
   border: none;
   color: hsl(var(--white));
   font-size: 18px;
@@ -3111,8 +3111,8 @@ input[type=number] {
   transition: 0.3s;
 }
 .header-9-call-icon a:hover {
-  background: var(--h9-primary-color);
-  color: hsl(var(--heading-color));
+  background: var(#000000);
+  color: hsl(var(#000000));
 }
 .header-9-call-number span {
   display: block;
@@ -3120,7 +3120,7 @@ input[type=number] {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.05em;
-  color: hsl(var(--white));
+  color: #D6A643;
   font-family: var(--plusjakarta-font);
 }
 .header-9-call-number a {
@@ -3138,7 +3138,7 @@ input[type=number] {
 }
 .header-9-call-number a:hover {
   background-size: 100% 1px;
-  color: var(--h9-primary-color);
+  color: #D6A643;
 }
 .header-9-btn {
   background: var(--h9-primary-color);
@@ -13361,5 +13361,7 @@ p.account-alert:last-child {
     flex-wrap: inherit;
   }
 }
+
+
 
 /*# sourceMappingURL=main.css.map */
