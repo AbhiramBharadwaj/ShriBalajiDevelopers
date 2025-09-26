@@ -2980,7 +2980,7 @@ input[type=number] {
 
 .header-9 {
   background: var(#fefefe);
-  border-bottom: 1px solid #23333d;
+  border-bottom: 2px solid #D6A643;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-9 {
@@ -3054,7 +3054,7 @@ input[type=number] {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .header-9-logo {
-    margin-left: 30px;
+    margin-left: 50px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -9127,7 +9127,7 @@ p.account-alert:last-child {
   height: 92px;
   top: 50%;
   right: 0;
-  background: #23333d;
+  background: #d4a310;
   transform: translateY(-50%);
 }
 [dir=rtl] .header-9-left {
@@ -13368,5 +13368,13 @@ p.account-alert:last-child {
 .header-9-call-item .header-9-call-number a {
     color: #D6A643 !important;   /* your gold hex */
 }
+
+.header-9-logo,
+.header-9-logo img {
+   max-width: none !important;
+   width: 280px !important;   /* pick your size */
+   height: auto !important;
+}
+
 
 /*# sourceMappingURL=main.css.map */
