@@ -13372,7 +13372,7 @@ p.account-alert:last-child {
 .header-9-logo,
 .header-9-logo img {
    max-width: none !important;
-   width: 280px !important;   /* pick your size */
+   width: 155px !important;   /* pick your size */
    height: auto !important;
 }
 
