@@ -13362,6 +13362,11 @@ p.account-alert:last-child {
   }
 }
 
-
+.header-9-call-item,
+.header-9-call-item .header-9-call-icon a,
+.header-9-call-item .header-9-call-number span,
+.header-9-call-item .header-9-call-number a {
+    color: #D6A643 !important;   /* your gold hex */
+}
 
 /*# sourceMappingURL=main.css.map */
