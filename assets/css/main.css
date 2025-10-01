@@ -2852,8 +2852,10 @@ input[type=number] {
 }
 
 .has-submenu {
-  position: relative;
+  position: relative; /* keep this */
+  z-index: 9999;      /* ensure it's above */
 }
+
 .has-submenu .nav-menu__link {
   padding-right: 16px;
 }
@@ -2906,7 +2908,7 @@ input[type=number] {
   opacity: 0;
   margin-top: 16px;
   transition: 0.2s linear;
-  z-index: 99;
+  z-index: 9999;
 }
 @media (min-width: 992px) {
   .nav-submenu {
@@ -3386,7 +3388,7 @@ input[type=number] {
   opacity: 1;
 }
 .nav-menu-9 > li > a {
-  color: hsl(var(--white));
+  color:  #D6A643;
   position: relative;
   padding: 35px 0;
 }
