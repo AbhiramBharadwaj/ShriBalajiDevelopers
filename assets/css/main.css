@@ -13382,6 +13382,55 @@ p.account-alert:last-child {
     background: #ffffff !important;
 }
 
+.faq-two .accordion-button {
+    background: linear-gradient(90deg, #f7961c, #f26430);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px 6px 0 0;
+}
+
+.faq-two .accordion-button.collapsed {
+    background: #f9f9f9;
+    color: #333;
+    border: 1px solid #eee;
+}
+
+.faq-two .accordion-body {
+    background: #fff;
+    border: 1px solid #eee;
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    padding: 20px 25px;
+    line-height: 1.7;
+}
+
+.faq-two .faq-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0;
+}
+
+.faq-two .faq-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 8px;
+}
+
+.faq-two .faq-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #f26430;
+    font-weight: bold;
+}
+
+.faq-two .accordion-body__desc {
+    color: #555;
+}
+
+
+
 
 
 /*# sourceMappingURL=main.css.map */
